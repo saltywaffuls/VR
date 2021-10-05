@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 12157981831810256}
   - component: {fileID: 7387322566856183394}
   - component: {fileID: 8600529945646169911}
-  - component: {fileID: 3765241034410768037}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: sphere
@@ -55,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -131,15 +131,3 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
---- !u!114 &3765241034410768037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12157981831810263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2c2ac73477f4549b871f0e313c2db4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
